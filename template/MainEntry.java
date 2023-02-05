@@ -25,6 +25,5 @@ public class MainEntry {
         System.out.println("[CASE2]");
         DisplayArticleTemplate style2 = new CaptionDisplayArticle(article);
         style2.display();
-
     }
 }

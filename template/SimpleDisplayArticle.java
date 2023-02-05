@@ -1,7 +1,5 @@
 package template;
 
-import Iterator.Array;
-
 import java.util.ArrayList;
 
 public class SimpleDisplayArticle extends DisplayArticleTemplate {
