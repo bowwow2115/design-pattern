@@ -1,4 +1,4 @@
-package Iterator;
+package iterator;
 
 public class Array implements Aggregator {
     private Item[] items;

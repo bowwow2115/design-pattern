@@ -1,4 +1,4 @@
-package Iterator;
+package iterator;
 
 public class ArrayIterator implements Iterator {
     private Array array;
