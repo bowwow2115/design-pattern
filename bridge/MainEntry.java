@@ -14,14 +14,10 @@ public class MainEntry {
 
         Display display1 = new SimpleDisplay();
 //        draft.print(display1);
-
 //        System.out.println("-------------");
-
         Display display2 = new CaptionDisplay();
 //        draft.print(display2);
-
         Publication publication = new Publication(title, author, contents, "영구출판", 100);
         publication.print(display2);
     }
-
 }
