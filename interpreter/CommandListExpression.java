@@ -27,6 +27,7 @@ public class CommandListExpression implements Expression {
 
                 if(command != null) {
                     if(command.parse(context)) {
+                        System.out.println(context);
                         commands.add(command);
                     } else {
                         return false;
@@ -44,10 +45,11 @@ public class CommandListExpression implements Expression {
         Iterator<CommandExpression> iterator = commands.iterator();
 
         while (iterator.hasNext()) {
+//            System.out.println("iterator");
             boolean bOK = iterator.next().run();
             if(!bOK) return false;
         }
-        return false;
+        return true;
     }
 
     @Override

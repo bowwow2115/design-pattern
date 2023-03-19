@@ -38,7 +38,7 @@ public class LoopCommandExpression extends CommandExpression {
                 return false;
             }
         }
-        return false;
+        return true;
     }
 
     @Override
