@@ -9,7 +9,8 @@ module.exports = {
   // entry: "./src/singleton/index.ts",
   // entry: "./src/flyweight/index.ts",
   // entry: "./src/composite/index.ts",
-  entry: "./src/factory_method/index.ts",
+  // entry: "./src/factory_method/index.ts",
+  entry: "./src/observer/index.ts",
   devtool: "inline-source-map",
   module: {
     rules: [
