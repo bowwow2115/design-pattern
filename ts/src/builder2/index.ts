@@ -1,6 +1,6 @@
 import Data from "./Data";
 import Director from "./Director";
-import JSONBuilder from "./JsonBuilder";
+import JSONBuilder from "./JSONBuilder";
 import PlainTextBuilder from "./PlainTextBuilder";
 import XMLBuilder from "./XMLBuilder";
 
